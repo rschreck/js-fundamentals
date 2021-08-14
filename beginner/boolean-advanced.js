@@ -1,12 +1,15 @@
-let isAccountLocked = true
-let isRole = "Admin"
-
-if (isAccountLocked)
-    console.log(`Locked `)
-else if(true){
-    console.log(`Not Locked `)
+let isAccountLocked = true;
+let isRole = "Admin";
+console.log(undefined === null); //false
+console.log(undefined == null); //true
+let isRole2 = undefined;
+if (isAccountLocked) console.log(`Locked `);
+else if (true) {
+  console.log(`Not Locked `);
+} else {
 }
-else{
+function test(...a,b){
+    console.log(`test`);
+    //statements
     
-}
-
+    }
