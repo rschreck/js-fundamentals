@@ -3,7 +3,7 @@ const sum = (a) => {
     return a + b;
   };
 };
-//in other words closure is resposible for curry
+//in other words closure is responsible for curry
 //
 let sum1 = (a) => (b) => a + b;
 const cl = sum(5);
