@@ -1,4 +1,4 @@
-//javacript uses lexical scope (static Scope)
+//javascript uses lexical scope (static Scope)
 let varOne = "varOne";
 let varTwo = "var2";
 if (true) {

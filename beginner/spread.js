@@ -17,7 +17,7 @@ const hobbies = ["Sports", "Cooking"];
 // console.log(hobbies);
 const copiedArray = [...hobbies];
 const copiedObject = { ...hobbies };
-//console.log("copiedArray", copiedArray);
+console.log("copiedArray", copiedArray);
 console.log("copiedObject", copiedObject);
 for (const property in copiedObject) {
   console.log(`${property} ${copiedObject[property]}`);

@@ -1,9 +1,15 @@
 let n = 10;
 let arr = [];
-function createNArray(n){
-    for (let i = 0; i < n; ++i) {
-        arr.push(null)
-    }
+function createNArray(n) {
+  for (let i = 0; i < n; ++i) {
+    arr.push(null);
+  }
 }
-createNArray(n)
+//createNArray(n)
 console.log(arr);
+for (let i = 0; i <= n; i++) {
+  arr.push(i);
+}
+for (let i = 0; i <= n; i++) {
+  arr.push(i);
+}

@@ -7,3 +7,4 @@ let outer = () => {
   return inner;
 };
 let newOuter = outer();
+console.log(newOuter());

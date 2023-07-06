@@ -8,8 +8,10 @@ else if (true) {
   console.log(`Not Locked `);
 } else {
 }
-function test(...a,b){
-    console.log(`test`);
-    //statements
-    
-    }
+test(1, 2, "hello");
+function test(a, ...b) {
+  console.log(`test`, a);
+  console.log(`test`, b);
+
+  //statements
+}
